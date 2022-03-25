@@ -123,6 +123,18 @@ body {
     background-color: inherit;
     border: none;
     margin-bottom: 40px;
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
+}
+.btn-2:hover{
+    color: var(--natural-dark-blue);
+}
+@media (max-width: 375px) {
+    .container {
+        width: 330px;
+    }
+    .cridet,
+    .btn-1 {
+        width: 90%;
+    }
 }
