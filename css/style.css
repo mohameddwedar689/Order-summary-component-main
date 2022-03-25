@@ -1,0 +1,27 @@
+/* 
+    The designs were created to the following widths:
+
+    - Mobile: 375px
+    - Desktop: 1440px
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-pale-blue: hsl(225, 100%, 94%);
+    --primary-bright-blue: hsl(245, 75%, 52%);
+    --natural-pale-blue: hsl(225, 100%, 98%);
+    --natural-desaturated-blue:  hsl(224, 23%, 55%);
+    --natural-dark-blue: hsl(223, 47%, 23%); 
+    --body-color: hsl(223 , 16% , 100%);
+}
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    background-color: var(--body-color);
+}
