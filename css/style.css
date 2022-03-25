@@ -53,26 +53,26 @@ body {
 }
 .description {
     font-size: 1rem;
-    width: 340px;
+    width: 21.25rem;
     margin: auto;
     line-height: 1.563rem;
     color: var(--natural-desaturated-blue);
 }
 .cridet {
-    width: 360px;
+    width: 22.5rem;
     margin: auto;
     margin-bottom: 1.563rem;
     margin-top: 1.563rem;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: var(--natural-pale-blue);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: flex;
     align-items: center;
 }
 .cridet .info {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 0.938rem;
 }
 .cridet .info .name {
     color: var(--natural-dark-blue);
@@ -90,7 +90,7 @@ body {
     float: right;
     color: var(--primary-bright-blue);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .cridet .change a:hover {
     text-decoration: none;
@@ -99,30 +99,30 @@ body {
 }
 
 .btn-1 {
-    width: 360px;
+    width: 22.5rem;
     display: block;
     margin: auto;
-    margin-bottom: 25px;
-    padding: 15px;
+    margin-bottom: 1.563rem;
+    padding: 0.938rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: white;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 700;
     background-color: var(--primary-bright-blue);
     cursor: pointer;
-    box-shadow: 0 15px 12px 0px var(--box-shadow);
+    box-shadow: 0 0.938rem 0.75rem 0 var(--box-shadow);
     transition: all .5s;
 }
 .btn-1:hover {
     background-color: var(--hover-color);
-    box-shadow: 0 15px 12px 0px var(--hover-shadow);
+    box-shadow: 0 0.938rem 0.75rem 0 var(--hover-shadow);
 }
 .btn-2 {
     color: var(--natural-desaturated-blue);
     background-color: inherit;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     font-weight: 900;
     cursor: pointer;
 }
@@ -131,7 +131,7 @@ body {
 }
 @media (max-width: 375px) {
     .container {
-        width: 330px;
+        width: 20.625rem;
     }
     .cridet,
     .btn-1 {
