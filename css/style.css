@@ -15,7 +15,7 @@
     --natural-pale-blue: hsl(225, 100%, 98%);
     --natural-desaturated-blue:  hsl(224, 23%, 55%);
     --natural-dark-blue: hsl(223, 47%, 23%); 
-    --body-color: hsl(223 , 16% , 100%);
+    --body-color: hsl(225, 100%, 94%);
 }
 body {
     font-family: 'Manrope', sans-serif;
@@ -23,5 +23,21 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
+    height: 100vh;
     background-color: var(--body-color);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
 }
